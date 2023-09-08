@@ -1,0 +1,74 @@
+.bubble1 {
+	position: relative;
+	width: 490px;
+	
+	line-height: 1.4em;
+	margin: 40px auto;
+	background-color: #fff;
+	border: 8px solid #333;
+	border-radius: 30px;
+	font-family: sans-serif;
+	padding: 20px;
+	font-size: large;
+}
+.quotes1 {
+  content: "\201D";
+  font-size: 136px;
+  font-family: sans-serif;
+  position: relative;
+  margin-left: 46rem;
+  display: inline-block;
+  margin-top: -5.1rem;
+  background-color: white;
+}
+.thought1 {
+	width: 300px;
+	border-radius: 200px;
+	padding: 30px;	
+}
+
+.bubble1:before,
+.bubble1:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+.speech1:before {
+	left: 30px;
+	bottom: -50px;
+	border: 25px solid;
+	border-color: #333 transparent transparent #333;
+}
+
+.speech1:after {
+  
+	left: 38px;
+	bottom: -30px;
+	border: 15px solid;
+	border-color: #fff transparent transparent #fff;
+}
+
+.thought1:before,
+.thought1:after {
+	left: 10px;
+	bottom: -30px;
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	border: 8px solid #333;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+}
+
+.thought:after {
+	width: 20px;
+	height: 20px;
+	left: 5px;
+	bottom: -40px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+}
